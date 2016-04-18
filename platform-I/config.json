@@ -1,0 +1,15 @@
+{
+    "name": "Platform-I",
+    "rules":[
+        {"path": "ohai.dmi.system.manufacturer",
+         "contains": "EMC"},
+        {"path": "ipmi-mc-info.Product ID",
+         "contains": "0x0029"}
+    ],
+    "taskRoot": "tasks",
+    "workflowRoot": "workflows",
+    "httpProfileRoot": "profiles",
+    "httpTemplatesRoot": "templates",
+    "httpStaticRoot": "static"
+}
+
